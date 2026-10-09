@@ -56,7 +56,7 @@ No usa frameworks, librerías ni servidor: todo corre en el navegador.
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/USUARIO/trivia-colombia.git
+   git clone https://github.com/EDER1002/trivia-colombia.git
    ```
 2. Abrir la carpeta en Visual Studio Code.
 3. Clic derecho sobre `index.html` → **Open with Live Server**.
