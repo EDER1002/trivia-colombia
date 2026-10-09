@@ -1,0 +1,7 @@
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Vercel
+.vercel
