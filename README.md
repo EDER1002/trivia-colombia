@@ -38,6 +38,17 @@ Versión móvil (375 px) y tema oscuro:
   <img src="docs/capturas/movil-8-tema-oscuro.png" alt="Juego en móvil con tema oscuro" width="190">
 </p>
 
+## Diseño en Figma
+
+El diseño se hizo antes del código: wireframes, guía de estilos, mockups de escritorio y móvil y prototipo navegable.
+Las pantallas exportadas están en [`docs/diseno`](docs/diseno).
+
+| Wireframe | Mockup |
+| --- | --- |
+| ![Wireframe de la pantalla de juego](docs/diseno/wireframes/4-juego-escritorio.png) | ![Mockup de la pantalla de juego](docs/diseno/mockups/escritorio-4-juego.png) |
+
+![Guía de estilos](docs/diseno/guia-de-estilos.png)
+
 ## Tecnologías
 
 | Tecnología | Uso |
@@ -153,7 +164,7 @@ Atajos de teclado: teclas `1`–`4` o `A`–`D` para responder y `Enter` para co
 | CP-09 | Tres aciertos seguidos | Suma la bonificación de +50 ✔ |
 | CP-10 | Terminar una partida | Muestra el resumen y aparece en el ranking ✔ |
 | CP-11 | Recargar la página | Se conservan ranking y estadísticas ✔ |
-| CP-12 | Comparar con el diseño | _pendiente: comparar con el archivo de Figma/MockFlow_ |
+| CP-12 | Comparar con el diseño | Las pantallas, colores y componentes coinciden con los mockups de Figma ✔ |
 | CP-13 | Celular de 360 px | Sin desplazamiento horizontal en ninguna pantalla ✔ |
 
 ## Mejoras futuras

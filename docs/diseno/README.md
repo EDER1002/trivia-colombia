@@ -8,8 +8,15 @@ Archivo de Figma: https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW
 | 2. Guía de estilos | Paleta (variables de color), tipografía (estilos de texto) y componentes con sus estados. |
 | 3. Mockups y prototipo | Mockups de alta fidelidad en escritorio y móvil, más el tema oscuro, conectados como prototipo navegable (flujos «Escritorio» y «Móvil»). |
 
-> **Pendiente:** exportar las pantallas desde Figma (PDF o PNG) y guardarlas en esta carpeta.
-> Las imágenes de `docs/capturas/` son capturas de la aplicación ya construida, no del diseño.
+## Pantallas exportadas desde Figma
+
+| Carpeta o archivo | Contenido |
+| --- | --- |
+| `wireframes/` | Las 7 pantallas en grises, en escritorio y móvil (PNG y SVG). |
+| `mockups/` | Los 18 mockups de alta fidelidad: 9 de escritorio y 9 de móvil. |
+| `guia-de-estilos.png` | Paleta, tipografía y componentes con sus estados. |
+
+Las imágenes de `docs/capturas/` son capturas de la aplicación ya construida, no del diseño.
 
 ## Wireframes de baja fidelidad
 
