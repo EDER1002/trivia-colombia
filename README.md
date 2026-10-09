@@ -12,7 +12,7 @@ Parcial de **Desarrollo Full Stack** · Universidad de Santander (UDES) · Docen
 | Entregable | Enlace |
 | --- | --- |
 | Diseño (Figma) | https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW |
-| Despliegue en Vercel | _pendiente_ |
+| Despliegue en Vercel | https://trivia-colombia.vercel.app |
 | Video explicativo | _pendiente_ |
 
 ## Capturas de pantalla
