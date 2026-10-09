@@ -11,7 +11,7 @@ Parcial de **Desarrollo Full Stack** · Universidad de Santander (UDES) · Docen
 
 | Entregable | Enlace |
 | --- | --- |
-| Diseño (Figma / MockFlow) | _pendiente_ |
+| Diseño (Figma) | https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW |
 | Despliegue en Vercel | _pendiente_ |
 | Video explicativo | _pendiente_ |
 

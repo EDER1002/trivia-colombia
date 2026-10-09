@@ -1,12 +1,20 @@
 # Diseño de la interfaz (Figma / MockFlow)
 
-> **Pendiente:** exportar aquí las pantallas del diseño (PDF o PNG) desde Figma o MockFlow.
+Archivo de Figma: https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW
+
+| Página del archivo | Contenido |
+| --- | --- |
+| 1. Wireframes | Las 7 pantallas en escala de grises, en escritorio (1440 × 1024) y móvil (375 × 812). |
+| 2. Guía de estilos | Paleta (variables de color), tipografía (estilos de texto) y componentes con sus estados. |
+| 3. Mockups y prototipo | Mockups de alta fidelidad en escritorio y móvil, más el tema oscuro, conectados como prototipo navegable (flujos «Escritorio» y «Móvil»). |
+
+> **Pendiente:** exportar las pantallas desde Figma (PDF o PNG) y guardarlas en esta carpeta.
 > Las imágenes de `docs/capturas/` son capturas de la aplicación ya construida, no del diseño.
 
 ## Wireframes de baja fidelidad
 
 La carpeta `wireframes/` tiene las 7 pantallas en escala de grises, en escritorio (1440 px) y móvil (375 px),
-como archivos SVG. Al arrastrarlos a Figma quedan como vectores y textos editables, uno por marco.
+como archivos SVG. Son los mismos que están dibujados en la página «1. Wireframes» del archivo de Figma.
 
 Esta guía reúne los valores exactos que usa la aplicación (están como variables en `css/styles.css`)
 para que el diseño y el código coincidan (RNF-01 y caso de prueba CP-12).
