@@ -1,0 +1,90 @@
+/* =====================================================================
+   responsive.css — Media queries
+   El diseño base (styles.css) corresponde al escritorio (≥ 901 px).
+   Aquí se adapta a tableta (≤ 900 px) y a celular (≤ 600 px y ≤ 380 px).
+   ===================================================================== */
+
+/* ---------- Tableta ---------- */
+@media (max-width: 900px) {
+  h1 { font-size: 2.125rem; }
+  h2 { font-size: 1.5rem; }
+  main { padding: 8px 20px 32px; }
+  .encabezado { padding: 12px 20px; }
+  .tarjeta { padding: 28px; }
+  .pregunta { padding: 24px; }
+  .pregunta__enunciado { font-size: 1.3125rem; }
+  .cifras { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ---------- Celular ---------- */
+@media (max-width: 600px) {
+  h1 { font-size: 1.875rem; }
+  h2 { font-size: 1.375rem; }
+  main { padding: 4px 16px 28px; }
+  .encabezado { padding: 10px 16px; }
+  .marca { font-size: 1.0625rem; }
+  .marca img { width: 34px; height: 34px; }
+
+  .tarjeta { padding: 22px 18px; }
+  .inicio { padding-top: 28px; }
+  .inicio__logo { width: 96px; height: 96px; }
+
+  /* Los botones ocupan todo el ancho para que sean fáciles de tocar */
+  .acciones { flex-direction: column; }
+  .acciones--invertir { flex-direction: column-reverse; } /* el botón principal queda arriba */
+  .acciones .boton { width: 100%; }
+
+  .categorias { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .categoria__caja { min-height: 112px; padding: 12px 8px; font-size: 0.875rem; }
+  .categoria__caja img { width: 46px; height: 46px; }
+  .dificultades { gap: 8px; }
+
+  .marcador { gap: 12px; margin-bottom: 12px; }
+  .marcador__fila { font-size: 0.875rem; }
+  .reloj { width: 60px; height: 60px; }
+  .reloj__numero { font-size: 1.1875rem; }
+
+  .pregunta { padding: 18px 16px 20px; }
+  .pregunta__enunciado { font-size: 1.125rem; margin-bottom: 16px; }
+  .opciones { grid-template-columns: 1fr; gap: 10px; }
+  .opcion { min-height: 56px; padding: 10px 12px; }
+  /* En una sola columna, las opciones eliminadas por el 50/50 no dejan hueco */
+  .opcion--oculta { display: none; }
+
+  .comodines { gap: 10px; }
+  .comodines__titulo { width: 100%; }
+  .boton--comodin { flex: 1; min-width: 0; }
+  .retro { padding: 14px 16px; }
+  .retro .boton { width: 100%; }
+
+  .resultado__puntaje span { font-size: 3.5rem; }
+  .cifra { padding: 12px 8px; }
+  .cifra dd { font-size: 1.1875rem; }
+
+  .tabla { font-size: 0.8125rem; }
+  .tabla th, .tabla td { padding: 8px 5px; }
+  .tabla th { font-size: 0.625rem; letter-spacing: 0.02em; }
+
+  /* Ranking: en celular la fecha pasa debajo del nombre y se oculta su columna */
+  .tabla--ranking { table-layout: fixed; }
+  .tabla--ranking td { overflow-wrap: anywhere; }
+  .tabla--ranking th:first-child, .tabla--ranking td:first-child { width: 36px; }
+  .tabla--ranking th:nth-child(3) { width: 60px; }
+  .tabla--ranking th:nth-child(4) { width: 36%; }
+  .tabla--ranking th:nth-child(5), .tabla--ranking td:nth-child(5) { display: none; }
+  .tabla--ranking td small.solo-movil { display: block; }
+  .pie { font-size: 0.75rem; }
+}
+
+/* ---------- Celulares muy angostos (360 px) ---------- */
+@media (max-width: 380px) {
+  .tarjeta { padding: 20px 14px; }
+  .inicio__secundarios { grid-template-columns: 1fr; }
+  .dificultad small { font-size: 0.6875rem; }
+}
+
+/* ---------- Pantallas muy bajas (celular en horizontal) ---------- */
+@media (max-height: 520px) and (orientation: landscape) {
+  .inicio__logo { display: none; }
+  .opciones { grid-template-columns: 1fr 1fr; }
+}
