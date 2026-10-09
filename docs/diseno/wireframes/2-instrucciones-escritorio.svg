@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="1440" height="900" fill="#F2F2F2"/>
+<rect x="0" y="0" width="1440" height="8" rx="0" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<circle cx="42" cy="42" r="18" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="29" x2="55" y2="55" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="55" x2="55" y2="29" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="70" y="48" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#404040">Trivia Colombia</text>
+<circle cx="1394" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="1342" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="1394" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">tema</text>
+<text x="1342" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">sonido</text>
+<rect x="310" y="90" width="820" height="730" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="350" y="158" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start" fill="#404040">Instrucciones</text>
+<text x="350" y="200" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#404040">Cómo se juega</text>
+<text x="350" y="225" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">1.</text>
+<rect x="374" y="216" width="531" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="350" y="249" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">2.</text>
+<rect x="374" y="240" width="642" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="350" y="273" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">3.</text>
+<rect x="374" y="264" width="531" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="350" y="297" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">4.</text>
+<rect x="374" y="288" width="642" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="350" y="321" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">5.</text>
+<rect x="374" y="312" width="531" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="350" y="358" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#404040">Comodines</text>
+<rect x="350" y="372" width="62" height="26" rx="13" fill="#BDBDBD" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="381" y="390" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#404040">50/50</text>
+<rect x="426" y="380" width="407" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<rect x="350" y="408" width="62" height="26" rx="13" fill="#BDBDBD" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="381" y="426" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#404040">+10 s</text>
+<rect x="426" y="416" width="407" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="350" y="468" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#404040">Puntuación</text>
+<text x="358" y="500" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#404040">Concepto</text>
+<text x="757" y="500" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#404040">Puntos</text>
+<line x1="350" y1="512" x2="1090" y2="512" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="358" y="532" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">Respuesta correcta</text>
+<text x="757" y="532" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">+100</text>
+<line x1="350" y1="544" x2="1090" y2="544" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="358" y="564" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">Rapidez</text>
+<text x="757" y="564" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">+5 por segundo</text>
+<line x1="350" y1="576" x2="1090" y2="576" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="358" y="596" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">Racha de 3</text>
+<text x="757" y="596" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">+50</text>
+<line x1="350" y1="608" x2="1090" y2="608" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="358" y="628" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">Incorrecta</text>
+<text x="757" y="628" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">0</text>
+<line x1="350" y1="640" x2="1090" y2="640" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="358" y="660" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">Comodín</text>
+<text x="757" y="660" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">−30</text>
+<line x1="350" y1="672" x2="1090" y2="672" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="358" y="692" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">Dificultad</text>
+<text x="757" y="692" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#404040">×1 · ×1.5 · ×2</text>
+<line x1="350" y1="704" x2="1090" y2="704" stroke="#8C8C8C" stroke-width="1.5"/>
+<rect x="350" y="720" width="204" height="48" rx="24.0" fill="#404040" stroke="#404040" stroke-width="2"/>
+<text x="452" y="749" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Volver al inicio</text>
+<text x="720" y="872" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#8C8C8C">Pie de página: Trivia Colombia · UDES · 2026</text>
+</svg>

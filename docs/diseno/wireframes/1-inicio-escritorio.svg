@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="1440" height="900" fill="#F2F2F2"/>
+<rect x="0" y="0" width="1440" height="8" rx="0" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<circle cx="42" cy="42" r="18" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="29" x2="55" y2="55" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="55" x2="55" y2="29" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="70" y="48" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#404040">Trivia Colombia</text>
+<circle cx="1394" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="1342" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="1394" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">tema</text>
+<text x="1342" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">sonido</text>
+<rect x="440" y="90" width="560" height="514" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="720" cy="186" r="56" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="681" y1="147" x2="759" y2="225" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="681" y1="225" x2="759" y2="147" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="720" y="290" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#404040">Trivia Colombia</text>
+<rect x="528" y="308" width="384" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<rect x="528" y="328" width="230" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="480" y="376" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start" fill="#404040">Tu nombre</text>
+<rect x="480" y="386" width="480" height="52" rx="8" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="496" y="417" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#8C8C8C">Escribe tu nombre</text>
+<rect x="480" y="450" width="480" height="54" rx="27.0" fill="#404040" stroke="#404040" stroke-width="2"/>
+<text x="720" y="483" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#FFFFFF">Jugar</text>
+<rect x="480" y="516" width="234" height="48" rx="24.0" fill="#FFFFFF" stroke="#404040" stroke-width="2"/>
+<text x="597" y="545" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#404040">Instrucciones</text>
+<rect x="726" y="516" width="234" height="48" rx="24.0" fill="#FFFFFF" stroke="#404040" stroke-width="2"/>
+<text x="843" y="545" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#404040">Ranking</text>
+<text x="720" y="872" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#8C8C8C">Pie de página: Trivia Colombia · UDES · 2026</text>
+</svg>

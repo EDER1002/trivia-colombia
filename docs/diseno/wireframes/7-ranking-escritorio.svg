@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="1440" height="900" fill="#F2F2F2"/>
+<rect x="0" y="0" width="1440" height="8" rx="0" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<circle cx="42" cy="42" r="18" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="29" x2="55" y2="55" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="55" x2="55" y2="29" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="70" y="48" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#404040">Trivia Colombia</text>
+<circle cx="1394" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="1342" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="1394" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">tema</text>
+<text x="1342" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">sonido</text>
+<rect x="310" y="90" width="820" height="638" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="350" y="158" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start" fill="#404040">Ranking – Top 10</text>
+<rect x="350" y="176" width="444" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="358" y="218" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#8C8C8C">#</text>
+<text x="417" y="218" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#8C8C8C">JUGADOR</text>
+<text x="624" y="218" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#8C8C8C">PUNTAJE</text>
+<text x="743" y="218" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#8C8C8C">CATEGORÍA</text>
+<text x="980" y="218" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#8C8C8C">FECHA</text>
+<line x1="350" y1="228" x2="1090" y2="228" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="372" cy="253" r="14" fill="#404040" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="372" y="258" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#FFFFFF">1</text>
+<rect x="417" y="248" width="148" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="624" y="258" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#404040">0000</text>
+<rect x="743" y="242" width="133" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<rect x="743" y="260" width="74" height="7" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="980" y="258" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">dd/mm/aa</text>
+<line x1="350" y1="278" x2="1090" y2="278" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="372" cy="303" r="14" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="372" y="308" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#404040">2</text>
+<rect x="417" y="298" width="148" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="624" y="308" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#404040">0000</text>
+<rect x="743" y="292" width="133" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<rect x="743" y="310" width="74" height="7" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="980" y="308" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">dd/mm/aa</text>
+<line x1="350" y1="328" x2="1090" y2="328" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="372" cy="353" r="14" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="372" y="358" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#404040">3</text>
+<rect x="417" y="348" width="148" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="624" y="358" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#404040">0000</text>
+<rect x="743" y="342" width="133" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<rect x="743" y="360" width="74" height="7" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="980" y="358" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">dd/mm/aa</text>
+<line x1="350" y1="378" x2="1090" y2="378" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="372" cy="403" r="14" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="372" y="408" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#404040">4</text>
+<rect x="417" y="398" width="148" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="624" y="408" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#404040">0000</text>
+<rect x="743" y="392" width="133" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<rect x="743" y="410" width="74" height="7" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="980" y="408" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">dd/mm/aa</text>
+<line x1="350" y1="428" x2="1090" y2="428" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="372" cy="453" r="14" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="372" y="458" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#404040">5</text>
+<rect x="417" y="448" width="148" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="624" y="458" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#404040">0000</text>
+<rect x="743" y="442" width="133" height="10" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<rect x="743" y="460" width="74" height="7" rx="5" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<text x="980" y="458" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#404040">dd/mm/aa</text>
+<line x1="350" y1="478" x2="1090" y2="478" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="350" y="512" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#404040">Estadísticas de [nombre]</text>
+<rect x="350" y="526" width="176" height="76" rx="8" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="438" y="552" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#404040">Partidas jugadas</text>
+<text x="438" y="582" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#404040">0</text>
+<rect x="538" y="526" width="176" height="76" rx="8" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="626" y="552" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#404040">Porcentaje de aciertos</text>
+<text x="626" y="582" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#404040">0 %</text>
+<rect x="726" y="526" width="176" height="76" rx="8" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="814" y="552" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#404040">Mejor puntaje</text>
+<text x="814" y="582" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#404040">0000</text>
+<rect x="914" y="526" width="176" height="76" rx="8" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="1002" y="552" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#404040">Mejor categoría</text>
+<text x="1002" y="582" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#404040">—</text>
+<rect x="350" y="628" width="204" height="48" rx="24.0" fill="#404040" stroke="#404040" stroke-width="2"/>
+<text x="452" y="657" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Volver al inicio</text>
+<rect x="566" y="628" width="186" height="48" rx="24.0" fill="#FFFFFF" stroke="#404040" stroke-width="2"/>
+<text x="659" y="657" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#404040">Borrar ranking</text>
+<text x="720" y="872" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#8C8C8C">Pie de página: Trivia Colombia · UDES · 2026</text>
+</svg>

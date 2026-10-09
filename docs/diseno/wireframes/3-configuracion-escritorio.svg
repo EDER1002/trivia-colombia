@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="1440" height="900" fill="#F2F2F2"/>
+<rect x="0" y="0" width="1440" height="8" rx="0" fill="#BDBDBD" stroke="none" stroke-width="0"/>
+<circle cx="42" cy="42" r="18" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="29" x2="55" y2="55" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="29" y1="55" x2="55" y2="29" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="70" y="48" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#404040">Trivia Colombia</text>
+<circle cx="1394" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="1342" cy="42" r="22" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="1394" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">tema</text>
+<text x="1342" y="46" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#404040">sonido</text>
+<rect x="310" y="90" width="820" height="702" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="350" y="142" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#404040">Hola, [nombre]</text>
+<text x="350" y="180" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start" fill="#404040">Configura tu partida</text>
+<text x="350" y="222" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#404040">1. Elige una categoría</text>
+<rect x="350" y="236" width="239" height="128" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="469" cy="284" r="24" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="453" y1="267" x2="486" y2="301" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="453" y1="301" x2="486" y2="267" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="469" y="342" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#404040">Todas</text>
+<rect x="601" y="236" width="239" height="128" rx="16" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="3"/>
+<circle cx="720" cy="284" r="24" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="703" y1="267" x2="737" y2="301" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="703" y1="301" x2="737" y2="267" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="720" y="342" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#404040">Geografía</text>
+<rect x="851" y="236" width="239" height="128" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="971" cy="284" r="24" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="954" y1="267" x2="987" y2="301" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="954" y1="301" x2="987" y2="267" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="971" y="342" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#404040">Historia</text>
+<rect x="350" y="376" width="239" height="128" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="469" cy="424" r="24" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="453" y1="407" x2="486" y2="441" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="453" y1="441" x2="486" y2="407" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="469" y="482" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#404040">Cultura y Tradiciones</text>
+<rect x="601" y="376" width="239" height="128" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="720" cy="424" r="24" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="703" y1="407" x2="737" y2="441" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="703" y1="441" x2="737" y2="407" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="720" y="482" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#404040">Deportes</text>
+<rect x="851" y="376" width="239" height="128" rx="16" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<circle cx="971" cy="424" r="24" fill="#F2F2F2" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="954" y1="407" x2="987" y2="441" stroke="#8C8C8C" stroke-width="1.5"/>
+<line x1="954" y1="441" x2="987" y2="407" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="971" y="482" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#404040">Ciencia y Naturaleza</text>
+<text x="350" y="540" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#404040">2. Elige la dificultad</text>
+<rect x="350" y="554" width="239" height="60" rx="10" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="469" y="581" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#404040">Fácil</text>
+<text x="469" y="599" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#404040">Puntos ×1</text>
+<rect x="601" y="554" width="239" height="60" rx="10" fill="#404040" stroke="#404040" stroke-width="1.5"/>
+<text x="720" y="581" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Medio</text>
+<text x="720" y="599" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#FFFFFF">Puntos ×1.5</text>
+<rect x="851" y="554" width="239" height="60" rx="10" fill="#FFFFFF" stroke="#8C8C8C" stroke-width="1.5"/>
+<text x="971" y="581" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#404040">Difícil</text>
+<text x="971" y="599" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#404040">Puntos ×2</text>
+<rect x="350" y="632" width="740" height="46" rx="6" fill="#E0E0E0" stroke="#8C8C8C" stroke-width="1.5"/>
+<rect x="350" y="632" width="5" height="46" rx="0" fill="#404040" stroke="none" stroke-width="0"/>
+<text x="368" y="660" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#404040">Tu mejor puntaje en esta combinación: 0000</text>
+<rect x="350" y="692" width="114" height="48" rx="24.0" fill="#FFFFFF" stroke="#404040" stroke-width="2"/>
+<text x="407" y="721" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#404040">Volver</text>
+<rect x="476" y="692" width="132" height="48" rx="24.0" fill="#404040" stroke="#404040" stroke-width="2"/>
+<text x="542" y="721" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Comenzar</text>
+<text x="720" y="872" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#8C8C8C">Pie de página: Trivia Colombia · UDES · 2026</text>
+</svg>
