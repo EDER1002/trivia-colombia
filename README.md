@@ -8,15 +8,16 @@ Parcial de **Desarrollo Full Stack** · Universidad de Santander (UDES) · Docen
 
 ## Integrantes
 
-| Nombre | GitHub |
-| --- | --- |
-| Eder Rosadas De Oliveira Barrera | [@EDER1002](https://github.com/EDER1002) |
-| María Fernanda Jaimes Manganiello | [@fmanganielo-026](https://github.com/fmanganielo-026) |
+| Nombre | Código | GitHub |
+| --- | --- | --- |
+| Eder Rosadas De Oliveira Barrera | 01240371014 | [@EDER1002](https://github.com/EDER1002) |
+| María Fernanda Jaimes Manganiello | 01240371050 | [@fmanganielo-026](https://github.com/fmanganielo-026) |
 
 ## Enlaces
 
 | Entregable | Enlace |
 | --- | --- |
+| Repositorio en GitHub | https://github.com/EDER1002/trivia-colombia |
 | Diseño (Figma) | https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW |
 | Prototipo navegable – escritorio | [Reproducir en Figma](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-51&starting-point-node-id=6%3A51&scaling=scale-down) |
 | Prototipo navegable – móvil | [Reproducir en Figma](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-99&starting-point-node-id=6%3A99&scaling=scale-down) |
