@@ -5,42 +5,42 @@
    las funciones de ui.js (mostrarPregunta, mostrarRetroalimentacion...).
    ===================================================================== */
 
-'use strict';
+"use strict";
 
 // Reglas del juego en un solo lugar: si cambian, solo se edita este objeto.
 const CONFIG = {
   PREGUNTAS_POR_PARTIDA: 10,
-  TIEMPO_POR_PREGUNTA: 20,   // segundos
-  TIEMPO_EXTRA: 10,          // segundos que suma el comodín de tiempo
+  TIEMPO_POR_PREGUNTA: 20, // segundos
+  TIEMPO_EXTRA: 10, // segundos que suma el comodín de tiempo
   PUNTOS_CORRECTA: 100,
-  PUNTOS_POR_SEGUNDO: 5,     // bonificación por cada segundo restante
+  PUNTOS_POR_SEGUNDO: 5, // bonificación por cada segundo restante
   MAX_BONO_RAPIDEZ: 100,
-  RACHA_PARA_BONO: 3,        // cada 3 aciertos seguidos...
-  BONO_RACHA: 50,            // ...se suman 50 puntos
+  RACHA_PARA_BONO: 3, // cada 3 aciertos seguidos...
+  BONO_RACHA: 50, // ...se suman 50 puntos
   COSTO_COMODIN: 30,
-  MULTIPLICADORES: { facil: 1, medio: 1.5, dificil: 2 }
+  MULTIPLICADORES: { facil: 1, medio: 1.5, dificil: 2 },
 };
 
 // Estado de la partida actual
 const estado = {
-  jugador: '',
-  categoria: 'todas',
-  dificultad: 'facil',
-  preguntas: [],        // las 10 preguntas seleccionadas
+  jugador: "",
+  categoria: "todas",
+  dificultad: "facil",
+  preguntas: [], // las 10 preguntas seleccionadas
   indiceActual: 0,
   aciertos: 0,
   racha: 0,
   mejorRacha: 0,
   puntaje: 0,
   tiempoRestante: CONFIG.TIEMPO_POR_PREGUNTA,
-  tiempoTotal: 0,       // segundos usados en toda la partida
+  tiempoTotal: 0, // segundos usados en toda la partida
   comodines: { cincuenta: true, tiempo: true },
   comodinesUsados: 0,
-  ordenOpciones: [],    // orden mezclado de las opciones de la pregunta actual
-  ocultas: [],          // posiciones eliminadas por el comodín 50/50
-  respondida: false,    // true cuando la pregunta actual ya se contestó
-  respuestas: [],       // historial para el resumen y la revisión
-  enCurso: false
+  ordenOpciones: [], // orden mezclado de las opciones de la pregunta actual
+  ocultas: [], // posiciones eliminadas por el comodín 50/50
+  respondida: false, // true cuando la pregunta actual ya se contestó
+  respuestas: [], // historial para el resumen y la revisión
+  enCurso: false,
 };
 
 let intervaloTemporizador = null;
@@ -63,14 +63,18 @@ function mezclar(arreglo) {
 // Filtra el banco por categoría y dificultad, lo mezcla y devuelve 10 preguntas.
 function obtenerPreguntas(categoria, dificultad) {
   const deLaCategoria = PREGUNTAS.filter(
-    (pregunta) => categoria === 'todas' || pregunta.categoria === categoria
+    (pregunta) => categoria === "todas" || pregunta.categoria === categoria,
   );
-  let seleccion = mezclar(deLaCategoria.filter((pregunta) => pregunta.dificultad === dificultad));
+  let seleccion = mezclar(
+    deLaCategoria.filter((pregunta) => pregunta.dificultad === dificultad),
+  );
 
   // Por seguridad: si el banco tuviera menos de 10 preguntas con esos filtros,
   // se completa con preguntas de la misma categoría en otras dificultades.
   if (seleccion.length < CONFIG.PREGUNTAS_POR_PARTIDA) {
-    const resto = mezclar(deLaCategoria.filter((pregunta) => pregunta.dificultad !== dificultad));
+    const resto = mezclar(
+      deLaCategoria.filter((pregunta) => pregunta.dificultad !== dificultad),
+    );
     seleccion = seleccion.concat(resto);
   }
   return seleccion.slice(0, CONFIG.PREGUNTAS_POR_PARTIDA);
@@ -79,9 +83,13 @@ function obtenerPreguntas(categoria, dificultad) {
 // Calcula los puntos de una respuesta correcta según las reglas de puntuación.
 function calcularPuntos(segundosRestantes, racha, dificultad) {
   const base = CONFIG.PUNTOS_CORRECTA;
-  const rapidez = Math.min(CONFIG.MAX_BONO_RAPIDEZ, segundosRestantes * CONFIG.PUNTOS_POR_SEGUNDO);
+  const rapidez = Math.min(
+    CONFIG.MAX_BONO_RAPIDEZ,
+    segundosRestantes * CONFIG.PUNTOS_POR_SEGUNDO,
+  );
   // La bonificación se da cada vez que la racha llega a 3, 6 o 9 aciertos seguidos
-  const bonoRacha = racha > 0 && racha % CONFIG.RACHA_PARA_BONO === 0 ? CONFIG.BONO_RACHA : 0;
+  const bonoRacha =
+    racha > 0 && racha % CONFIG.RACHA_PARA_BONO === 0 ? CONFIG.BONO_RACHA : 0;
   const multiplicador = CONFIG.MULTIPLICADORES[dificultad];
   const total = Math.round((base + rapidez + bonoRacha) * multiplicador);
   return { base, rapidez, bonoRacha, multiplicador, total };
@@ -105,7 +113,7 @@ function iniciarPartida(categoria, dificultad) {
   estado.respuestas = [];
   estado.enCurso = true;
 
-  mostrarPantalla('juego');
+  mostrarPantalla("juego");
   cargarPregunta();
 }
 
@@ -151,15 +159,26 @@ function responder(indiceOpcion) {
   const pregunta = estado.preguntas[estado.indiceActual];
   const indiceCorrecto = estado.ordenOpciones.indexOf(pregunta.correcta);
   const esCorrecta = indiceOpcion === indiceCorrecto;
-  const segundosUsados = segundosDisponibles - Math.max(0, estado.tiempoRestante);
+  const segundosUsados =
+    segundosDisponibles - Math.max(0, estado.tiempoRestante);
   estado.tiempoTotal += segundosUsados;
 
-  let puntos = { base: 0, rapidez: 0, bonoRacha: 0, multiplicador: CONFIG.MULTIPLICADORES[estado.dificultad], total: 0 };
+  let puntos = {
+    base: 0,
+    rapidez: 0,
+    bonoRacha: 0,
+    multiplicador: CONFIG.MULTIPLICADORES[estado.dificultad],
+    total: 0,
+  };
   if (esCorrecta) {
     estado.aciertos += 1;
     estado.racha += 1;
     estado.mejorRacha = Math.max(estado.mejorRacha, estado.racha);
-    puntos = calcularPuntos(estado.tiempoRestante, estado.racha, estado.dificultad);
+    puntos = calcularPuntos(
+      estado.tiempoRestante,
+      estado.racha,
+      estado.dificultad,
+    );
     estado.puntaje += puntos.total;
   } else {
     estado.racha = 0;
@@ -169,11 +188,14 @@ function responder(indiceOpcion) {
     pregunta: pregunta,
     indiceElegido: indiceOpcion,
     indiceCorrecto: indiceCorrecto,
-    textoElegido: indiceOpcion === null ? null : pregunta.opciones[estado.ordenOpciones[indiceOpcion]],
+    textoElegido:
+      indiceOpcion === null
+        ? null
+        : pregunta.opciones[estado.ordenOpciones[indiceOpcion]],
     esCorrecta: esCorrecta,
     tiempoAgotado: indiceOpcion === null,
     puntos: puntos,
-    segundosUsados: segundosUsados
+    segundosUsados: segundosUsados,
   };
   estado.respuestas.push(resultado);
 
@@ -184,13 +206,15 @@ function responder(indiceOpcion) {
 function usarComodin(tipo) {
   if (!estado.enCurso || estado.respondida || !estado.comodines[tipo]) return;
 
-  if (tipo === 'cincuenta') {
+  if (tipo === "cincuenta") {
     const pregunta = estado.preguntas[estado.indiceActual];
     const indiceCorrecto = estado.ordenOpciones.indexOf(pregunta.correcta);
-    const incorrectas = [0, 1, 2, 3].filter((indice) => indice !== indiceCorrecto);
+    const incorrectas = [0, 1, 2, 3].filter(
+      (indice) => indice !== indiceCorrecto,
+    );
     estado.ocultas = mezclar(incorrectas).slice(0, 2); // dos incorrectas al azar
     ocultarOpciones(estado.ocultas);
-  } else if (tipo === 'tiempo') {
+  } else if (tipo === "tiempo") {
     estado.tiempoRestante += CONFIG.TIEMPO_EXTRA;
     segundosDisponibles += CONFIG.TIEMPO_EXTRA;
     actualizarTemporizador();
@@ -226,7 +250,7 @@ function finalizarPartida() {
     categoria: estado.categoria,
     dificultad: estado.dificultad,
     aciertos: estado.aciertos,
-    fecha: new Date().toISOString()
+    fecha: new Date().toISOString(),
   };
   const posicion = guardarEnRanking(partida);
   actualizarEstadisticas(partida, estado.respuestas);
@@ -238,7 +262,7 @@ function finalizarPartida() {
     tiempoTotal: estado.tiempoTotal,
     mejorRacha: estado.mejorRacha,
     comodinesUsados: estado.comodinesUsados,
-    falladas: estado.respuestas.filter((respuesta) => !respuesta.esCorrecta)
+    falladas: estado.respuestas.filter((respuesta) => !respuesta.esCorrecta),
   });
 }
 

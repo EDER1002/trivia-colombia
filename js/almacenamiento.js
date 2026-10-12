@@ -5,11 +5,11 @@
    JSON.stringify al guardar y con JSON.parse al leer.
    ===================================================================== */
 
-'use strict';
+"use strict";
 
-const CLAVE_RANKING = 'trivia_ranking';
-const CLAVE_STATS = 'trivia_stats';
-const CLAVE_PREFS = 'trivia_prefs';
+const CLAVE_RANKING = "trivia_ranking";
+const CLAVE_STATS = "trivia_stats";
+const CLAVE_PREFS = "trivia_prefs";
 const MAXIMO_RANKING = 10;
 
 /* ---------- Funciones base de lectura y escritura ---------- */
@@ -47,7 +47,9 @@ function guardarEnRanking(partida) {
   const ranking = obtenerRanking();
   ranking.push(partida);
   // Si hay empate en puntaje, queda primero la partida más antigua
-  ranking.sort((a, b) => b.puntaje - a.puntaje || new Date(a.fecha) - new Date(b.fecha));
+  ranking.sort(
+    (a, b) => b.puntaje - a.puntaje || new Date(a.fecha) - new Date(b.fecha),
+  );
   const top = ranking.slice(0, MAXIMO_RANKING);
   escribir(CLAVE_RANKING, top);
   return top.indexOf(partida) + 1;
@@ -56,7 +58,9 @@ function guardarEnRanking(partida) {
 function borrarRanking() {
   try {
     localStorage.removeItem(CLAVE_RANKING);
-  } catch (error) { /* no hay nada que borrar */ }
+  } catch (error) {
+    /* no hay nada que borrar */
+  }
 }
 
 /* ---------- Estadísticas por jugador ---------- */
@@ -74,7 +78,7 @@ function estadisticasVacias(nombre) {
     aciertos: 0,
     mejorPuntaje: 0,
     categorias: {}, // { geografia: { respondidas, aciertos }, ... }
-    mejores: {}     // mejor puntaje por combinación: { 'historia|facil': 1450, ... }
+    mejores: {}, // mejor puntaje por combinación: { 'historia|facil': 1450, ... }
   };
 }
 
@@ -106,8 +110,11 @@ function actualizarEstadisticas(partida, respuestas) {
     }
   });
 
-  const combinacion = partida.categoria + '|' + partida.dificultad;
-  stats.mejores[combinacion] = Math.max(stats.mejores[combinacion] || 0, partida.puntaje);
+  const combinacion = partida.categoria + "|" + partida.dificultad;
+  stats.mejores[combinacion] = Math.max(
+    stats.mejores[combinacion] || 0,
+    partida.puntaje,
+  );
 
   todas[clave] = stats;
   escribir(CLAVE_STATS, todas);
@@ -117,13 +124,13 @@ function actualizarEstadisticas(partida, respuestas) {
 // Mejor puntaje del jugador en una combinación de categoría y dificultad (0 si no ha jugado).
 function obtenerMejorPuntaje(nombre, categoria, dificultad) {
   const stats = obtenerEstadisticas(nombre);
-  return stats.mejores[categoria + '|' + dificultad] || 0;
+  return stats.mejores[categoria + "|" + dificultad] || 0;
 }
 
 /* ---------- Preferencias (sonido, tema y último nombre usado) ---------- */
 
 function obtenerPreferencias() {
-  const porDefecto = { sonido: true, tema: null, nombre: '' };
+  const porDefecto = { sonido: true, tema: null, nombre: "" };
   return Object.assign(porDefecto, leer(CLAVE_PREFS, {}));
 }
 
