@@ -2,11 +2,13 @@
 
 Archivo de Figma: https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW
 
+Prototipo navegable: [escritorio](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-51&starting-point-node-id=6%3A51&scaling=scale-down) · [móvil](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-99&starting-point-node-id=6%3A99&scaling=scale-down)
+
 | Página del archivo | Contenido |
 | --- | --- |
-| 1. Wireframes | Las 7 pantallas en escala de grises, en escritorio (1440 × 1024) y móvil (375 × 812). |
-| 2. Guía de estilos | Paleta (variables de color), tipografía (estilos de texto) y componentes con sus estados. |
-| 3. Mockups y prototipo | Mockups de alta fidelidad en escritorio y móvil, más el tema oscuro, conectados como prototipo navegable (flujos «Escritorio» y «Móvil»). |
+| [1. Wireframes](https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW?node-id=0-1) | Las 7 pantallas en escala de grises, en escritorio (1440 × 1024) y móvil (375 × 812). |
+| [2. Guía de estilos](https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW?node-id=5-2) | Paleta (variables de color), tipografía (estilos de texto) y componentes con sus estados. |
+| [3. Mockups y prototipo](https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW?node-id=5-3) | Mockups de alta fidelidad en escritorio y móvil, más el tema oscuro, conectados como prototipo navegable (flujos «Escritorio» y «Móvil»). |
 
 ## Pantallas exportadas desde Figma
 
@@ -15,6 +17,7 @@ Archivo de Figma: https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW
 | `wireframes/` | Las 7 pantallas en grises, en escritorio y móvil (PNG y SVG). |
 | `mockups/` | Los 18 mockups de alta fidelidad: 9 de escritorio y 9 de móvil. |
 | `guia-de-estilos.png` | Paleta, tipografía y componentes con sus estados. |
+| `paleta/` | Muestras de cada color, usadas en la tabla de la paleta del README principal. |
 
 Las imágenes de `docs/capturas/` son capturas de la aplicación ya construida, no del diseño.
 

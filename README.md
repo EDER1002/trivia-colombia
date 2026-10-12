@@ -5,17 +5,86 @@ de dificultad y responde una ronda de 10 preguntas de selección múltiple con t
 puntos según la rapidez y, al final, el resultado se guarda en un ranking local.
 
 Parcial de **Desarrollo Full Stack** · Universidad de Santander (UDES) · Docente: Carlos Carrascal · Octubre de 2026
-**Estudiante:** Eder Rosadas De Oliveira Barrera
+
+## Integrantes
+
+| Nombre | GitHub |
+| --- | --- |
+| Eder Rosadas De Oliveira Barrera | [@EDER1002](https://github.com/EDER1002) |
+| María Fernanda Jaimes Manganiello | [@fmanganielo-026](https://github.com/fmanganielo-026) |
 
 ## Enlaces
 
 | Entregable | Enlace |
 | --- | --- |
 | Diseño (Figma) | https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW |
+| Prototipo navegable – escritorio | [Reproducir en Figma](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-51&starting-point-node-id=6%3A51&scaling=scale-down) |
+| Prototipo navegable – móvil | [Reproducir en Figma](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-99&starting-point-node-id=6%3A99&scaling=scale-down) |
 | Despliegue en Vercel | https://trivia-colombia.vercel.app |
 | Video explicativo | _pendiente_ |
 
-## Capturas de pantalla
+## Diseño en Figma
+
+El diseño se hizo antes del código. El archivo de Figma tiene tres secciones (páginas):
+
+| Sección | Qué contiene | Abrir en Figma | Exportado en el repositorio |
+| --- | --- | --- | --- |
+| 1. Wireframes | Las 7 pantallas en escala de grises, en escritorio (1440 × 1024) y móvil (375 × 812). | [Ver sección](https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW?node-id=0-1) | [`docs/diseno/wireframes`](docs/diseno/wireframes) |
+| 2. Guía de estilos | Paleta de colores, tipografía y componentes con sus estados (normal, hover, correcto, incorrecto y deshabilitado). | [Ver sección](https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW?node-id=5-2) | [`guia-de-estilos.png`](docs/diseno/guia-de-estilos.png) |
+| 3. Mockups y prototipo | Mockups de alta fidelidad en escritorio y móvil, más el tema oscuro, conectados como prototipo navegable. | [Ver sección](https://www.figma.com/design/BdYMvZWORXnRtHcv0GcpXW?node-id=5-3) | [`docs/diseno/mockups`](docs/diseno/mockups) |
+
+### Cómo reproducir el prototipo
+
+1. Abre el enlace del prototipo de [escritorio](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-51&starting-point-node-id=6%3A51&scaling=scale-down) o de [móvil](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-99&starting-point-node-id=6%3A99&scaling=scale-down). Arranca en la pantalla de inicio.
+2. Haz clic en los botones como si jugaras: **Jugar** → **Comenzar** → elige una opción → **Siguiente pregunta** → **Resultado** → **Ver ranking**.
+3. En la pantalla de juego, la opción **A** lleva a la retroalimentación correcta y las demás a la incorrecta. El botón de la luna cambia al tema oscuro.
+4. El logo y **Abandonar partida** vuelven al inicio. Las pantallas largas se desplazan hacia abajo con la rueda del ratón.
+
+También se puede abrir el archivo de Figma, ir a la sección 3 y pulsar **Present** (▶), eligiendo el flujo «Escritorio» o «Móvil».
+
+### Mockups y wireframes por pantalla
+
+| Pantalla | Wireframe | Mockup |
+| --- | --- | --- |
+| 1 Inicio | [escritorio](docs/diseno/wireframes/1-inicio-escritorio.png) · [móvil](docs/diseno/wireframes/1-inicio-movil.png) | [escritorio](docs/diseno/mockups/escritorio-1-inicio.png) · [móvil](docs/diseno/mockups/movil-1-inicio.png) |
+| 2 Instrucciones | [escritorio](docs/diseno/wireframes/2-instrucciones-escritorio.png) · [móvil](docs/diseno/wireframes/2-instrucciones-movil.png) | [escritorio](docs/diseno/mockups/escritorio-2-instrucciones.png) · [móvil](docs/diseno/mockups/movil-2-instrucciones.png) |
+| 3 Configuración de partida | [escritorio](docs/diseno/wireframes/3-configuracion-escritorio.png) · [móvil](docs/diseno/wireframes/3-configuracion-movil.png) | [escritorio](docs/diseno/mockups/escritorio-3-configuracion.png) · [móvil](docs/diseno/mockups/movil-3-configuracion.png) |
+| 4 Juego | [escritorio](docs/diseno/wireframes/4-juego-escritorio.png) · [móvil](docs/diseno/wireframes/4-juego-movil.png) | [escritorio](docs/diseno/mockups/escritorio-4-juego.png) · [móvil](docs/diseno/mockups/movil-4-juego.png) |
+| 5 Retroalimentación (correcta) | [escritorio](docs/diseno/wireframes/5-retroalimentacion-escritorio.png) · [móvil](docs/diseno/wireframes/5-retroalimentacion-movil.png) | [escritorio](docs/diseno/mockups/escritorio-5-retroalimentacion-correcta.png) · [móvil](docs/diseno/mockups/movil-5-retroalimentacion-correcta.png) |
+| 5b Retroalimentación (incorrecta) | — | [escritorio](docs/diseno/mockups/escritorio-5b-retroalimentacion-incorrecta.png) · [móvil](docs/diseno/mockups/movil-5b-retroalimentacion-incorrecta.png) |
+| 6 Resultado | [escritorio](docs/diseno/wireframes/6-resultado-escritorio.png) · [móvil](docs/diseno/wireframes/6-resultado-movil.png) | [escritorio](docs/diseno/mockups/escritorio-6-resultado.png) · [móvil](docs/diseno/mockups/movil-6-resultado.png) |
+| 7 Ranking y estadísticas | [escritorio](docs/diseno/wireframes/7-ranking-escritorio.png) · [móvil](docs/diseno/wireframes/7-ranking-movil.png) | [escritorio](docs/diseno/mockups/escritorio-7-ranking.png) · [móvil](docs/diseno/mockups/movil-7-ranking.png) |
+| 8 Juego en tema oscuro | — | [escritorio](docs/diseno/mockups/escritorio-8-juego-tema-oscuro.png) · [móvil](docs/diseno/mockups/movil-8-juego-tema-oscuro.png) |
+
+| Wireframe | Mockup |
+| --- | --- |
+| ![Wireframe de la pantalla de juego](docs/diseno/wireframes/4-juego-escritorio.png) | ![Mockup de la pantalla de juego](docs/diseno/mockups/escritorio-4-juego.png) |
+
+### Paleta de colores
+
+Inspirada en la bandera de Colombia. Cada color está definido como variable en `css/styles.css` y como variable de color en Figma.
+
+| Color | Tema claro | Tema oscuro | Uso |
+| --- | --- | --- | --- |
+| Amarillo (acento) | <img src="docs/diseno/paleta/fcd116.png" width="22" height="22" alt="">&nbsp;`#FCD116` | <img src="docs/diseno/paleta/fcd116.png" width="22" height="22" alt="">&nbsp;`#FCD116` | Barra de progreso, comodines, racha y botón principal en tema oscuro |
+| Azul (principal) | <img src="docs/diseno/paleta/003893.png" width="22" height="22" alt="">&nbsp;`#003893` | <img src="docs/diseno/paleta/fcd116.png" width="22" height="22" alt="">&nbsp;`#FCD116` | Títulos, botón principal y chip de categoría |
+| Rojo (error) | <img src="docs/diseno/paleta/ce1126.png" width="22" height="22" alt="">&nbsp;`#CE1126` | <img src="docs/diseno/paleta/f2566a.png" width="22" height="22" alt="">&nbsp;`#F2566A` | Respuesta incorrecta, alertas y botón «Borrar ranking» |
+| Verde (acierto) | <img src="docs/diseno/paleta/2e9e5b.png" width="22" height="22" alt="">&nbsp;`#2E9E5B` | <img src="docs/diseno/paleta/3dbe74.png" width="22" height="22" alt="">&nbsp;`#3DBE74` | Respuesta correcta |
+| Fondo | <img src="docs/diseno/paleta/f4f6fb.png" width="22" height="22" alt="">&nbsp;`#F4F6FB` | <img src="docs/diseno/paleta/0a1228.png" width="22" height="22" alt="">&nbsp;`#0A1228` | Fondo de la página |
+| Superficie | <img src="docs/diseno/paleta/ffffff.png" width="22" height="22" alt="">&nbsp;`#FFFFFF` | <img src="docs/diseno/paleta/131e3f.png" width="22" height="22" alt="">&nbsp;`#131E3F` | Tarjetas |
+| Superficie 2 | <img src="docs/diseno/paleta/edf1f9.png" width="22" height="22" alt="">&nbsp;`#EDF1F9` | <img src="docs/diseno/paleta/1c2950.png" width="22" height="22" alt="">&nbsp;`#1C2950` | Cajas internas, cifras y retroalimentación |
+| Texto | <img src="docs/diseno/paleta/111b36.png" width="22" height="22" alt="">&nbsp;`#111B36` | <img src="docs/diseno/paleta/edf1ff.png" width="22" height="22" alt="">&nbsp;`#EDF1FF` | Texto principal |
+| Texto suave | <img src="docs/diseno/paleta/55607a.png" width="22" height="22" alt="">&nbsp;`#55607A` | <img src="docs/diseno/paleta/aab5d1.png" width="22" height="22" alt="">&nbsp;`#AAB5D1` | Notas, etiquetas y pie de página |
+| Borde | <img src="docs/diseno/paleta/d3dae8.png" width="22" height="22" alt="">&nbsp;`#D3DAE8` | <img src="docs/diseno/paleta/2e3d6b.png" width="22" height="22" alt="">&nbsp;`#2E3D6B` | Bordes de tarjetas, campos y opciones |
+
+### Tipografía
+
+[Poppins](https://fonts.google.com/specimen/Poppins) de Google Fonts: Bold para títulos, SemiBold para enunciados y botones, Regular para el texto.
+Los botones miden mínimo 48 px de alto para que sean fáciles de tocar en el celular.
+
+![Guía de estilos](docs/diseno/guia-de-estilos.png)
+
+## Capturas de la aplicación
 
 | Inicio | Configuración de partida |
 | --- | --- |
@@ -38,17 +107,6 @@ Versión móvil (375 px) y tema oscuro:
   <img src="docs/capturas/movil-8-tema-oscuro.png" alt="Juego en móvil con tema oscuro" width="190">
 </p>
 
-## Diseño en Figma
-
-El diseño se hizo antes del código: wireframes, guía de estilos, mockups de escritorio y móvil y prototipo navegable.
-Las pantallas exportadas están en [`docs/diseno`](docs/diseno).
-
-| Wireframe | Mockup |
-| --- | --- |
-| ![Wireframe de la pantalla de juego](docs/diseno/wireframes/4-juego-escritorio.png) | ![Mockup de la pantalla de juego](docs/diseno/mockups/escritorio-4-juego.png) |
-
-![Guía de estilos](docs/diseno/guia-de-estilos.png)
-
 ## Tecnologías
 
 | Tecnología | Uso |
@@ -57,11 +115,11 @@ Las pantallas exportadas están en [`docs/diseno`](docs/diseno).
 | CSS3 | Variables, Flexbox, Grid, media queries, animaciones y tema oscuro. |
 | JavaScript (ES6+) | Lógica del juego, manipulación del DOM, eventos y temporizador. |
 | localStorage | Ranking, estadísticas y preferencias del jugador. |
-| Figma / MockFlow | Wireframes, mockups, guía de estilos y prototipo. |
+| Figma | Wireframes, mockups, guía de estilos y prototipo navegable. |
 | Git y GitHub | Control de versiones. |
 | Vercel | Despliegue. |
 
-No usa frameworks, librerías ni servidor: todo corre en el navegador.
+No usa frameworks, librerías ni servidor: todo corre en el navegador. El código está formateado con [Prettier](https://prettier.io/).
 
 ## Cómo ejecutarlo localmente
 
@@ -92,7 +150,7 @@ trivia-colombia/
 │   ├── img/              → Logo e íconos de las categorías (SVG)
 │   └── sonidos/          → Efectos de acierto y error
 ├── docs/
-│   ├── diseno/           → Guía de estilos y exportación del diseño
+│   ├── diseno/           → Wireframes, mockups, guía de estilos y paleta exportados de Figma
 │   └── capturas/         → Capturas de la aplicación
 └── README.md
 ```
