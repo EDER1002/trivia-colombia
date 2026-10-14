@@ -22,7 +22,7 @@ Parcial de **Desarrollo Full Stack** · Universidad de Santander (UDES) · Docen
 | Prototipo navegable – escritorio | [Reproducir en Figma](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-51&starting-point-node-id=6%3A51&scaling=scale-down) |
 | Prototipo navegable – móvil | [Reproducir en Figma](https://www.figma.com/proto/BdYMvZWORXnRtHcv0GcpXW?page-id=5%3A3&node-id=6-99&starting-point-node-id=6%3A99&scaling=scale-down) |
 | Despliegue en Vercel | https://trivia-colombia.vercel.app |
-| Video explicativo | _pendiente_ |
+| Video explicativo | https://drive.google.com/file/d/1w1sL47fSMFP0OX-iiaPhvHgClEHqT3D8/view?usp=drivesdk |
 
 ## Diseño en Figma
 
